@@ -1,0 +1,77 @@
+.article-container {
+  margin-bottom: 10rem;
+  width: 100%;
+}
+
+.article-cover-img {
+  height: 50rem;
+  width: 100%;
+  background-size: cover;
+  border-radius: 3px;
+}
+.article-title {
+  font-size: 3rem;
+  text-align: left;
+  margin: 3rem 0;
+  font-weight: 400;
+}
+.article-author {
+  text-align: right;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
+}
+.article-content {
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word; /* Compatibilité avec différents navigateurs */
+  white-space: normal;
+}
+
+.article-back {
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.action {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+
+.btn-edit {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-radius: 3px;
+  background-color: var(--primary);
+  color: white;
+  border: 2px solid var(--btn-hover);
+}
+.btn-edit:hover {
+  background-color: var(--btn-hover);
+  color: white;
+}
+.btn-delete {
+  margin-right: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-radius: 3px;
+  background-color: var(--danger);
+  color: white;
+  border: 2px solid var(--danger);
+}
+.btn-delete:hover {
+  background-color: var(--danger);
+  color: white;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
